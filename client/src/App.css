@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.app-blue {
+  color: #073050 !important;
+}
+.app-red {
+  color: #da2032 !important
+}
+.bg-blue{
+  background-color: #073050 !important;
+}
+.btn-blue {
+  background-color: #16476d !important;
+  color: #fff !important;
+}
+.btn-blue:hover {
+  background-color: #073050 !important;
+  color: #fff !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.headerclub {
+  margin-left: 75%;
+}
+
+.logos {
+  width: 100%;
+  z-index: 2;
+  height: 6rem;
+
+}
+
+.head {
+  width: 13rem;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.headerclub {
+  width: 15rem;
+}
+
+
+.btn-outline-danger{
+  border: 1px solid red !important;
+}
+/* .btn-red {
+  border: 1px solid red !important;
+  color: red !important;
+  transition: none !important;
+} */
+.btn-red {
+  background-color:#da2032 !important;
+  color: #fff !important;
+  transition: none !important;
+
+}
+
+
+
+.col:hover {
+  color: black;
+  background-color: rgb(227, 240, 252);
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: orange;
+
+
+}
+
+
+.movement:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.row {
+  margin: 10px;
+
+}
+
+h2 {
+  color: chocolate;
+}
+
+.footer {
+  margin-top: 190px;
+  background-color: rgb(192, 188, 188);
+  color: aliceblue;
+  width: 100%;
+  /* position: fixed; */
+  top: 460px;
+
+}
+
+p {
+  padding-bottom: -5px;
+  color: black;
+
+}
+
+
+.sizee {
+  margin-bottom: 35px;
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .head {
+    width: 10rem;
+  }
+
+  .headerclub {
+    width: 11rem;
+    margin: 0;
+  }
+}
